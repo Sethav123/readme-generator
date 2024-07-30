@@ -51,6 +51,7 @@ const questions = [
     },
 ];
 
+// Define licenses with links to information about them and their badges
 const licenses = {
     'MIT': {
         badge: '![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)',
@@ -89,6 +90,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
+// Creates template for README file
         const readmeTemplate = `
 # ${answers.title}
 
