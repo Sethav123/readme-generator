@@ -126,7 +126,7 @@ This project is licensed under the [${answers.license} license](${licenses[answe
 (https://github.com/${answers.username})
 email me: ${answers.email}
 `;
-writeToFile('README.md', readmeTemplate);
+writeToFile(`${answers.title}.md`, readmeTemplate);
 });
 }
 

@@ -1,36 +1,5 @@
-
-# title
-
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
-
-## Table of Contents
-
-1. [Description](#description)
-2. [Installation Instructions](#installation-instructions)
-3. [Usage Information](#usage-information)
-4. [Contribution Guidelines](#contribution-guidelines)
-5. [Test Instructions](#test-instructions)
-6. [License](#license)
-7. [Questions](#questions)
-
+# README generator
 ## Description
-desc
-
-## Installation Instructions
-inst
-
-## Usage Information
-usa
-
-## Contribution Guidelines
-cont
-
-## Test Instructions
-test
-
-## License
-This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Questions
-(https://github.com/use)
-email me: ema
+made a command line application that accepts user input for a title, description, installation instructions, usage information, contribution guidelines, test instructions, a liscense, and my github username and email address and creates a README file with corresponding sections filled in with whatever the user inputed for the prompts. It also includes a badge under the title for whichever liscense you selected in the prompt and a table of contents that links to each section of the README.
+## Video
+https://drive.google.com/file/d/1WinGkHxGq1LVImfrlZjjSXPZuYpfFfvH/view
